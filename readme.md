@@ -1,3 +1,8 @@
-# Title
+# Title of my repo
 ## Sub Title
-something
+
+This is the description of my class. something
+
+**Your Name**
+
+__Rebecca__
