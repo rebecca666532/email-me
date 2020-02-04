@@ -1,0 +1,22 @@
+h1
+{
+  color: red;
+}
+
+/* this is class */
+.container
+{
+  background-color: #9C4FF5;
+  width: 600px;
+  margin: auto;
+}
+
+/* This is an id */
+#dog{
+background-color: pink;
+width:400px;
+}
+
+.article h1{
+  color:blue;
+}
