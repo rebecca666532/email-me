@@ -1,14 +1,24 @@
+
 h1
 {
   color: red;
+  font-family: 'Roboto';
 }
 
 /* this is class */
 .container
 {
-  background-color: #9C4FF5;
-  width: 600px;
-  margin: auto;
+  margin:50%;
+  padding: 20px;
+  background-color:#1a77ab;
+  width: 50%;
+  box-shadow: 5px 10px 20px 20px rgb(110, 241, 174);
+  
+}
+
+.container h1
+{
+font-size: 4em;
 }
 
 /* This is an id */
