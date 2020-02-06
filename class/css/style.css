@@ -13,7 +13,7 @@ h1
   background-color:#1a77ab;
   width: 50%;
   box-shadow: 5px 10px 20px 20px rgb(110, 241, 174);
-  
+  border-radius: 20%;
 }
 
 .container h1
