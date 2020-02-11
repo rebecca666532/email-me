@@ -1,3 +1,6 @@
+body{
+background-color:rgb(128, 218, 204);
+}
 
 h1
 {
@@ -29,4 +32,44 @@ width:410px;
 
 .article h1{
   color:blue;
+}
+
+.sidebar{
+  float: left;
+  margin:auto;
+  margin-left: 60px;
+  padding: 20px;
+  background-color:#1a77ab;
+  width: 10%;
+  box-shadow: 5px 10px 20px 20px rgb(110, 241, 174);
+  border-radius: 20%;
+}
+
+.navigation{
+  display: table;
+  margin:0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontaline{
+ padding-top: 20px;
+}
+
+.horizontaline li{
+  display: inline;
+  margin: 40px;
+  padding: 20px 60px 20px 60px;
+  background-color: rgb(29, 199, 236);
+  width:10%;
+}
+
+.horizontaline li a {
+  color:gray;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.horizontaline li a:hover{
+  color:red;
 }
