@@ -1,0 +1,53 @@
+.navigation
+{
+  color: rgb(20, 74, 157);
+  background-color:rgb(72, 231, 193);
+  width:200px;
+  box-shadow: 5px 10px 5px 5px rgb(85, 120, 103);
+}
+
+a:hover
+{
+  background-color:rgb(241, 184, 13);
+}
+
+a:link
+{
+  text-decoration: none;
+}
+
+.h1
+{
+  font-family: 'Lato', sans-serif;
+}
+
+.container
+{
+  margin:3%;
+  padding: 20px;
+  background-color:rgb(135, 220, 247);
+  width: 50%;
+  box-shadow: 5px 10px 5px 5px rgb(112, 160, 173);
+  border-radius: 40%;
+}
+
+.navigation1
+{
+  color:black;
+  background-color:rgb(33, 154, 222);
+  width:450px;
+  box-shadow: 5px 10px 5px 5px rgb(134, 135, 143);
+}
+
+.navigation2
+{
+  color:black;
+  background-color:rgb(72, 231, 193);
+  width:200px;
+  box-shadow: 5px 10px 5px 5px rgb(85, 120, 103);
+}
+
+.body
+{
+  background-color:rgb(216, 244, 229);
+}
