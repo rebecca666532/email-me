@@ -23,8 +23,8 @@ a:link
 
 .container
 {
-  margin:3%;
-  padding: 20px;
+  margin-left: 1%;
+  padding: 10px;
   background-color:rgb(135, 220, 247);
   width: 50%;
   box-shadow: 5px 10px 5px 5px rgb(112, 160, 173);
@@ -50,4 +50,36 @@ a:link
 .body
 {
   background-color:rgb(216, 244, 229);
+}
+
+.h2
+{
+  border-radius: 20%;
+  margin-left: -20px;
+}
+
+.sidebar{
+  float:right;
+  margin-top:10%;
+  margin-left: 60px;
+  padding: 20px;
+  background-color:rgb(96, 178, 237);
+  width: 40%;
+  box-shadow: 5px 10px 20px 20px rgb(50, 118, 173);
+  border-radius: 20%;
+}
+
+.h3
+{
+ margin-left: 4%;
+}
+
+.h11
+{
+background-color:rgb(186, 227, 247);
+width: 300px;
+}
+
+p::first-line {
+  color: blue;
 }
