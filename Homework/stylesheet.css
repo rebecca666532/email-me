@@ -3,7 +3,6 @@
   color: rgb(20, 74, 157);
   background-color:rgb(72, 231, 193);
   width:200px;
-  box-shadow: 5px 10px 5px 5px rgb(85, 120, 103);
 }
 
 a:hover
@@ -28,15 +27,14 @@ a:link
   background-color:rgb(135, 220, 247);
   width: 50%;
   box-shadow: 5px 10px 5px 5px rgb(112, 160, 173);
-  border-radius: 40%;
+  border-radius: 10%;
 }
 
 .navigation1
 {
   color:black;
-  background-color:rgb(33, 154, 222);
+  background-color:rgb(103, 238, 149);
   width:450px;
-  box-shadow: 5px 10px 5px 5px rgb(134, 135, 143);
 }
 
 .navigation2
@@ -44,7 +42,6 @@ a:link
   color:black;
   background-color:rgb(72, 231, 193);
   width:200px;
-  box-shadow: 5px 10px 5px 5px rgb(85, 120, 103);
 }
 
 .body
@@ -54,8 +51,9 @@ a:link
 
 .h2
 {
-  border-radius: 20%;
-  margin-left: -20px;
+  border-radius: 10%;
+  margin-left: 42px;
+  box-shadow: 5px 5px 5px 5px rgb(134, 135, 143);
 }
 
 .sidebar{
@@ -63,9 +61,9 @@ a:link
   margin-top:10%;
   margin-left: 60px;
   padding: 20px;
-  background-color:rgb(96, 178, 237);
+  background-color:rgb(238, 251, 134);
   width: 40%;
-  box-shadow: 5px 10px 20px 20px rgb(50, 118, 173);
+  box-shadow: 5px 10px 20px 20px rgb(70, 194, 123);
   border-radius: 20%;
 }
 
