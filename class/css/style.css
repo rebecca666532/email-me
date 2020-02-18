@@ -1,5 +1,5 @@
 body{
-background-color:rgb(128, 218, 204);
+background-color:rgb(236, 242, 168);
 }
 
 h1
@@ -11,7 +11,8 @@ h1
 /* this is class */
 .container
 {
-  margin:50%;
+  margin-top:5%;
+  margin-left:27%;
   padding: 20px;
   background-color:#1a77ab;
   width: 50%;
@@ -72,4 +73,16 @@ width:410px;
 
 .horizontaline li a:hover{
   color:red;
+}
+
+.h2
+{
+  border-radius: 20%;
+  margin-top: 5%;
+}
+
+.h3
+{
+  margin-left: 33%;
+  margin-top: 3%;
 }

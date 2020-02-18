@@ -45,7 +45,7 @@ h1
 /* this was used in my ul tag inside my nav */
 .horizontaLine {
   padding-top: 20px;
-  padding-inline-start:50px;
+  padding-inline-start: 20px;
 }
 /* this will affect all the li childs inside my horizontaLine */
 .horizontaLine li {
