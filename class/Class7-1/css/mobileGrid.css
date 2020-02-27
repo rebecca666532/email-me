@@ -110,6 +110,13 @@ background-color: pink;
 {
   width: 100%;
   height: 100vh;
+  display: grid;
+  grid-template-areas: "hea hea hea"
+                       "nav nav nav"
+                       "main main main"
+                       "foo foo foo";
+  grid-template-rows: 10% 20% 50% 10%;
+  grid-template-columns: 1fr 1fr 1fr;
   /* Display the grids in a friendly mobile version */
 
 }
@@ -117,18 +124,22 @@ background-color: pink;
 
 .gridMain header
 {
+  grid-area: hea;
   background-color: lightblue;
 }
 .gridMain nav
 {
+  grid-area: nav;
   background-color: lightgreen;
 }
 .gridMain main
 {
+  grid-area: main;
   background-color: pink;
 }
 .gridMain footer
 {
+  grid-area: foo;
   background-color: lightgray;
 }
 
@@ -138,7 +149,13 @@ background-color: pink;
 {
   width: 100%;
   height: 100%;
-
+  display: grid;
+  grid-template-areas:"1"
+                      "2"
+                      "3"
+                      "4";
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 100%;
 /* Display your smaller grid with just rows */
 
 
@@ -150,7 +167,22 @@ background-color: pink;
   border: 1px solid black;
 }
 
-
+.gridMain 1
+{
+  grid-area: 1;
+}
+.gridMain 2
+{
+  grid-area: 2;
+}
+.gridMain 3
+{
+  grid-area: 3;
+}
+.gridMain 4
+{
+  grid-area: 4;
+}
 
 
 
