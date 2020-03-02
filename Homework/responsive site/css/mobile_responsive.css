@@ -1,0 +1,133 @@
+.gridMain
+{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "hea"
+                       "main"
+                       "foo";
+  grid-template-rows: 30% 70% 20%;
+  grid-template-columns: 100%;
+  /* Display the grids in a friendly mobile version */
+
+}
+
+
+
+.gridMain header
+{
+  grid-area: hea;
+}
+
+.gridMain main
+{
+  grid-area: main;
+}
+.gridMain footer
+{
+  grid-area: foo;
+}
+
+
+
+.smallGrid
+{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas:"Sou"
+                      "Viz"
+                      "Pin"
+                      "San";
+  grid-template-rows: 40% 40% 40% 40%;
+  grid-template-columns: 100%;
+  margin-top: 50px;
+/* Display your smaller grid with just rows */
+
+
+}
+
+/* Give a border line to all divs inside my .basicGrid1 class */
+
+.smallGrid Southbeach
+{
+  grid-area: Sou;
+}
+.smallGrid Vizcaya Musume&Garden
+{
+  grid-area: Viz;
+}
+.smallGrid Pinecrest Garden
+{
+  grid-area: Pin;
+}
+.smallGrid Santa's Enchanted Forest
+{
+  grid-area: San;
+}
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(6, 168, 71);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: rgb(241, 140, 22);
+}
+
+.grid
+{
+  width: 100%;
+  height: 30%;
+  display: grid;
+  grid-template-areas: "abo"
+                       "wea"
+                       "new ";
+  grid-template-rows: 30% 30% 30%;
+  grid-template-columns: 100%;
+}
+
+.grid
+{
+  border:1px; color: black;
+}
+
+.grid header
+{
+  grid-area: abo;
+  background-color: rgb(173, 247, 139);
+}
+
+.grid nav
+{
+  grid-area: wea;
+  background-color: rgb(173, 247, 139);
+}
+
+.grid main
+{
+  grid-area: new;
+  background-color: rgb(173, 247, 139);
+}
