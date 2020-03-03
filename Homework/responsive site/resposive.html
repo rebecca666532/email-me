@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Miami Attractions</title>
+    <title class="title">Miami Attractions</title>
     <meta name="author" content="Songzhu Yang">
     <meta name="content" content="Miami Attractions">
     <link rel="stylesheet" media="only screen and (min-width: 701px)" href="css/desktop_responsive.css">
@@ -10,11 +10,40 @@
     <meta name="viewport" content="initial-scale=1">
 
   <style>
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  }
+  ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   background-color: #f1f1f1;
+   border: 1px solid #555;
+ }
+
+ li a {
+   display: block;
+   color: #000;
+   padding: 8px 16px;
+   text-decoration: none;
+ }
+
+ li {
+   text-align: center;
+   border-bottom: 1px solid #555;
+ }
+
+ li:last-child {
+   border-bottom: none;
+ }
+
+ li a.active {
+   background-color: #4CAF50;
+   color: white;
+ }
+
+ li a:hover:not(.active) {
+   background-color: #555;
+   color: white;
+ }
 </style>
 
 
@@ -26,9 +55,9 @@
 
   <div class="grid">
     <ul>
-      <header> <li><a href="#">About</a></li> </header>
-      <nav> <li><a href="#">Weather</a></li> </nav>
-      <main> <li><a href="#">News</a></li>  </main>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Weather</a></li>
+      <li><a href="#">News</a></li>
     </ul>
   </div>
 
