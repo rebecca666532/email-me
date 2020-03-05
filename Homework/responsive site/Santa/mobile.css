@@ -32,7 +32,6 @@
 .gridMain footer
 {
   grid-area: foo;
-  border: 1px solid rgb(198, 201, 196);
   border-radius: 5%;
   margin-top: 70px;
 }
@@ -50,4 +49,9 @@
 .h3
 {
   border-radius: 5%;
+}
+
+.h4
+{
+background-color: rgb(202, 246, 233);
 }

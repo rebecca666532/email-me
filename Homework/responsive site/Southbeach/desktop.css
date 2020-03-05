@@ -34,7 +34,7 @@
   border-radius: 5%;
   margin-top: 20px;
 }
-.h1
+.h5
 {
  color: rgb(106, 181, 228);
  font-family: 'Trade Winds', cursive;
@@ -64,4 +64,9 @@
 /* Display your smaller grid with just rows */
 
 
+}
+
+.h4
+{
+background-color: rgb(202, 246, 233);
 }

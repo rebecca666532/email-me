@@ -6,7 +6,7 @@
     grid-template-areas: "hea"
                          "mai"
                          "foo";
-    grid-template-rows: 50% 50% 260%;
+    grid-template-rows: 50% 55% 260%;
     grid-template-columns: 100%;
 
     /* Display the grids in a friendly mobile version */
@@ -33,7 +33,7 @@
   border-radius: 5%;
   margin-top: 70px;
 }
-.h1
+.h5
 {
  color: rgb(106, 181, 228);
  font-family: 'Trade Winds', cursive;
@@ -47,4 +47,14 @@
 .h3
 {
   border-radius: 5%;
+}
+
+.h4
+{
+background-color: rgb(202, 246, 233);
+}
+
+.h3
+{
+  background-color: rgb(183, 228, 247);
 }
