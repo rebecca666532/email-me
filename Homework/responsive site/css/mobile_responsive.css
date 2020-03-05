@@ -113,12 +113,65 @@
   font-size: 22px;
 }
 
+.ul2 {
+ list-style-type: none;
+ margin-left: 25%;
+ padding: 0;
+ width: 50%;
+ background-color: rgb(241, 140, 22);
+ border: 1px solid #555;
+ color: black;
+}
+
+.li2 a {
+ display: block;
+ border: color #000;
+ padding: 8px 16px;
+ text-decoration: none;
+}
+
+.li2 {
+ text-align: center;
+ border-bottom: 1px solid #555;
+}
+
+.li2:last-child {
+ border-bottom: none;
+}
+
+.li2 a.active {
+ background-color: #4CAF50;
+ color: white;
+}
+
+.li2 a:hover:not(.active) {
+ background-color: rgb(210, 217, 218);
+ color: white;
+}
+
+.h3
+{
+  background-color: rgb(183, 228, 247);
+}
+
+.h3
+{
+  margin-top: 70px;
+}
+
+.h4
+{
+  font-family: 'Trade Winds', cursive;
+  font-size: 22px;
+  margin-left: 33%;
+  color: rgb(139, 198, 241);
+}
+
 .ul {
  list-style-type: none;
- margin: 0;
  padding: 0;
  width: 100%;
- background-color: #f1f1f1;
+ background-color: rgb(225, 225, 227);
  border: 1px solid #555;
 }
 
@@ -146,9 +199,4 @@
 .li a:hover:not(.active) {
  background-color: #555;
  color: white;
-}
-
-.h3
-{
-  background-color: rgb(183, 228, 247);
 }

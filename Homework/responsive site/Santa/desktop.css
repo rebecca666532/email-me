@@ -1,0 +1,68 @@
+.gridMain
+  {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "hea mai mai"
+                         "hea mai mai"
+                         "foo foo foo";
+    grid-template-rows: 55% 30% 40%;
+    grid-template-columns: 40% 30% 30%;
+
+    /* Display the grids in a friendly mobile version */
+
+  }
+
+.gridMain header
+  {
+    grid-area: hea;
+    border: 1px solid rgb(198, 201, 196);
+    border-radius: 5%;
+    padding: 20px;
+  }
+
+.gridMain main
+  {
+    grid-area: mai;
+    border: 1px solid rgb(198, 201, 196);
+    border-radius: 5%;
+    margin-left: 20px;
+    padding: 30px;
+  }
+.gridMain footer
+{
+  grid-area: foo;
+  border-radius: 5%;
+  margin-top: 70px;
+}
+.h1
+{
+ color: rgb(106, 181, 228);
+ font-family: 'Trade Winds', cursive;
+}
+
+.h2
+{
+  font-family: 'Trade Winds', cursive;
+}
+
+.h3
+{
+  border-radius: 5%;
+}
+
+.smallGrid
+{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:"1 2"
+                      "3 4";
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  margin-top: 50px;
+  grid-gap:5px;
+/* Display your smaller grid with just rows */
+
+
+}

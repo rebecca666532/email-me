@@ -4,6 +4,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  width: 100%;
 }
 
 li {
@@ -26,6 +27,7 @@ li a:hover {
 {
   font-family: 'Trade Winds', cursive;
   font-size: 16px;
+  color: black;
 }
 
 .h2
@@ -69,7 +71,7 @@ li a:hover {
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-areas:"Sou Viz Pin San";
+  grid-template-areas:"1 2 3 4";
   grid-template-rows: 100%;
   grid-template-columns: 25% 25% 25% 25%;
   margin-top: 50px;
@@ -80,22 +82,7 @@ li a:hover {
 
 /* Give a border line to all divs inside my .basicGrid1 class */
 
-.smallGrid Southbeach
-{
-  grid-area: Sou;
-}
-.smallGrid Vizcaya Musume&Garden
-{
-  grid-area: Viz;
-}
-.smallGrid Pinecrest Garden
-{
-  grid-area: Pin;
-}
-.smallGrid Santa's Enchanted Forest
-{
-  grid-area: San;
-}
+
 
 .container {
   position: relative;
@@ -126,4 +113,43 @@ li a:hover {
 
 .container .btn:hover {
   background-color: rgb(241, 140, 22);
+}
+
+.h3
+{
+  margin-top: 70px;
+}
+
+.h4
+{
+  font-family: 'Trade Winds', cursive;
+  font-size: 22px;
+  margin-left: 40%;
+  color: rgb(139, 198, 241);
+}
+
+.ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 27%;
+  margin-left: 33%;
+}
+
+.li2 {
+  float: left;
+}
+
+.li2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li2 a:hover {
+  background-color: #111;
 }
