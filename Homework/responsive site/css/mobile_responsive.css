@@ -6,7 +6,7 @@
   grid-template-areas: "hea"
                        "main"
                        "foo";
-  grid-template-rows: 20% 200% 20%;
+  grid-template-rows: 20% 160% 20%;
   grid-template-columns: 100%;
   /* Display the grids in a friendly mobile version */
 
@@ -199,4 +199,18 @@
 .li a:hover:not(.active) {
  background-color: #555;
  color: white;
+}
+
+.parallax
+{
+  margin-top: 0px;
+  height: 30vh;
+  /* YOU CAN ATTACH YOUR IMAGE TO THE BACKGROUND OF YOUR ELEMENTS */
+  background-image: url("../img/cover_Miami.png");
+  background-size: 80% auto;
+  /* THIS IS WHAT IT MAKES YOUR IMAGE FIXED TO THE BACKGROUND INSTEAD
+   OF MOVING WITH YOUR OTHER ELEMENTS */
+  background-attachment: fixed;
+  /* PLACE THE IMAGE IN THE MIDDLE */
+  background-position: top center;
 }

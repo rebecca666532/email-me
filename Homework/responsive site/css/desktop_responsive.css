@@ -153,3 +153,17 @@ li a:hover {
 .li2 a:hover {
   background-color: #111;
 }
+
+.parallax
+{
+  margin-top: 0;
+  height: 50vh;
+  /* YOU CAN ATTACH YOUR IMAGE TO THE BACKGROUND OF YOUR ELEMENTS */
+  background-image: url("../img/cover_Miami.png");
+  background-size: 90% auto;
+  /* THIS IS WHAT IT MAKES YOUR IMAGE FIXED TO THE BACKGROUND INSTEAD
+   OF MOVING WITH YOUR OTHER ELEMENTS */
+  background-attachment: fixed;
+  /* PLACE THE IMAGE IN THE MIDDLE */
+  background-position: top center;
+}
