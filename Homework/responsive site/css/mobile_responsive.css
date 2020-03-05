@@ -6,7 +6,7 @@
   grid-template-areas: "hea"
                        "main"
                        "foo";
-  grid-template-rows: 20% 160% 20%;
+  grid-template-rows: 20% 140% 20%;
   grid-template-columns: 100%;
   /* Display the grids in a friendly mobile version */
 
