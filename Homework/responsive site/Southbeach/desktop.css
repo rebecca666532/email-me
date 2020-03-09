@@ -71,7 +71,7 @@
 background-color: rgb(202, 246, 233);
 }
 
-ul {
+.navigation ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -80,11 +80,11 @@ ul {
   width: 100%;
 }
 
-li {
+.navigation li {
   float: left;
 }
 
-li a {
+.navigation li a {
   display: block;
   color: white;
   text-align: center;
@@ -92,14 +92,40 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.navigation li a:hover {
   background-color: #111;
 }
-.navigation li
-{
-  margin-left: 500px;
+
+.ul2 {
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 13%;
+  margin-left: 40%;
 }
-.navigation li a
+
+.li2 {
+  float: left;
+}
+
+.li2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li2 a:hover {
+  background-color: #111;
+}
+
+.h6
 {
-  color: red;
+  font-family: 'Trade Winds', cursive;
+  font-size: 22px;
+  margin-left: 40%;
+  color: rgb(139, 198, 241);
 }

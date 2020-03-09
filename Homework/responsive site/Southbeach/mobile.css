@@ -59,7 +59,7 @@ background-color: rgb(202, 246, 233);
   background-color: rgb(183, 228, 247);
 }
 
-.ul {
+.navigation ul {
  list-style-type: none;
  padding: 0;
  width: 100%;
@@ -67,32 +67,68 @@ background-color: rgb(202, 246, 233);
  border: 1px solid #555;
 }
 
-.li a {
+.navigation li a {
  display: block;
  border: color #000;
  padding: 8px 16px;
  text-decoration: none;
 }
 
-.li {
+.navigation li {
  text-align: center;
  border-bottom: 1px solid #555;
 }
 
 
-.li a.active {
+.navigation li a.active {
  background-color: #4CAF50;
  color: white;
 }
 
-.li a:hover:not(.active) {
+.navigation li a:hover:not(.active) {
  background-color: #555;
  color: white;
 }
 
-.h1
+.navigation h1
 {
   font-family: 'Trade Winds', cursive;
   font-size: 16px;
   color: black;
+}
+
+.ul2 {
+ list-style-type: none;
+ margin-left: 25%;
+ padding: 0;
+ width: 50%;
+ background-color: rgb(241, 140, 22);
+ border: 1px solid #555;
+ color: black;
+}
+
+.li2 a {
+ display: block;
+ border: color #000;
+ padding: 8px 16px;
+ text-decoration: none;
+}
+
+.li2 {
+ text-align: center;
+ border-bottom: 1px solid #555;
+}
+
+.li2:last-child {
+ border-bottom: none;
+}
+
+.li2 a.active {
+ background-color: #4CAF50;
+ color: white;
+}
+
+.li2 a:hover:not(.active) {
+ background-color: rgb(210, 217, 218);
+ color: white;
 }
