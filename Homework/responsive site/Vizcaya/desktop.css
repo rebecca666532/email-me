@@ -87,7 +87,7 @@ background-color: rgb(202, 246, 233);
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(91, 221, 244);
   width: 100%;
 }
 
@@ -104,7 +104,7 @@ background-color: rgb(202, 246, 233);
 }
 
 .navigation li a:hover {
-  background-color: #111;
+  background-color: rgb(39, 127, 159);
 }
 
 .ul2 {
@@ -112,7 +112,7 @@ background-color: rgb(202, 246, 233);
   margin-top: 50px;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(91, 221, 244);
   width: 20%;
   margin-left: 40%;
 }
@@ -130,7 +130,7 @@ background-color: rgb(202, 246, 233);
 }
 
 .li2 a:hover {
-  background-color: #111;
+  background-color: rgb(39, 127, 159);
 }
 
 .h6

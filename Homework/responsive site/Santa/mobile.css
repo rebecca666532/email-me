@@ -107,7 +107,7 @@ background-color: rgb(202, 246, 233);
  margin-left: 25%;
  padding: 0;
  width: 50%;
- background-color: rgb(241, 140, 22);
+ background-color: rgb(6, 168, 71);
  border: 1px solid #555;
  color: black;
 }
@@ -134,7 +134,7 @@ background-color: rgb(202, 246, 233);
 }
 
 .li2 a:hover:not(.active) {
- background-color: rgb(210, 217, 218);
+ background-color: rgb(241, 140, 22);
  color: white;
 }
 
