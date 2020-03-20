@@ -7,7 +7,7 @@
                          "nav"
                          "mai"
                          "foo";
-    grid-template-rows: 58% 70% 210% 20%;
+    grid-template-rows: 500px 770px 210% 20%;
     grid-template-columns: 100%;
 
     /* Display the grids in a friendly mobile version */

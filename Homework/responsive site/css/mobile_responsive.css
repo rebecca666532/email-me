@@ -1,7 +1,7 @@
 .gridMain
 {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   display: grid;
   grid-template-areas: "hea"
                        "main"
@@ -43,6 +43,7 @@
   grid-template-columns: 100%;
   margin-top: 50px;
   grid-gap: 5px ;
+  margin-bottom: 80px;
 /* Display your smaller grid with just rows */
 
 
@@ -203,14 +204,15 @@
 
 .parallax
 {
-  margin-top: 0px;
-  height: 30vh;
+  margin-top: 30px;
+  height: 20vh;
   /* YOU CAN ATTACH YOUR IMAGE TO THE BACKGROUND OF YOUR ELEMENTS */
   background-image: url("../img/cover_Miami.png");
-  background-size: 80% auto;
+  background-size: 100% auto;
   /* THIS IS WHAT IT MAKES YOUR IMAGE FIXED TO THE BACKGROUND INSTEAD
    OF MOVING WITH YOUR OTHER ELEMENTS */
   background-attachment: fixed;
   /* PLACE THE IMAGE IN THE MIDDLE */
   background-position: top center;
+
 }
