@@ -7,7 +7,7 @@
                          "hea nav nav"
                          "mai mai mai"
                          "foo foo foo";
-    grid-template-rows: 300px 300px 140% 20%;
+    grid-template-rows: 300px 300px 100% 20%;
     grid-template-columns: 40% 30% 30%;
 
     /* Display the grids in a friendly mobile version */
