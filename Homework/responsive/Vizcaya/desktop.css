@@ -1,7 +1,7 @@
 .gridMain
   {
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     display: grid;
     grid-template-areas: "hea nav nav"
                          "hea nav nav"
@@ -59,7 +59,7 @@
 {
   border-radius: 5%;
   display: block;
-  width: 50%;
+  width: 75%;
 }
 
 .smallGrid
