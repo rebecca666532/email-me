@@ -25,6 +25,8 @@ $("#button3").click(function(){
   $("#set3").show();
 });
 
+// I know what is wrong.......The  error is inside the html!!!!
+// So I need to share the html? I can see it, go to the html ok!
 
 
 });  //This is the end of the document ready function
