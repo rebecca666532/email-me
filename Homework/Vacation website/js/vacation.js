@@ -1,8 +1,6 @@
 $(document).ready( function(){
 
-  $("#_css").click(function(){
-    $("header p").css("font-family: 'Shadows Into Light', cursive;");
-  });
+
 
   $("footer").mouseover(function(){
       $("footer p").html("Cuba is a beautiful country!");
