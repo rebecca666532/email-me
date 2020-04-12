@@ -1,14 +1,14 @@
 
 body
 {
-  background-color: #e0e0e0;
+  background-color: rgb(126, 206, 240);
 }
 
 
 .grid
 {
   width: 80%;
-  height: 230vh;
+  height: 200vh;
   margin: 0 auto;
   display: grid;
   grid-template-areas:
@@ -18,7 +18,7 @@ body
   "fo fo fo"
   ;
 
-  grid-template-rows: .3fr .2fr 1fr .1fr;
+  grid-template-rows:150px 50px 50% 50px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 20px;
 }
@@ -26,26 +26,26 @@ body
 .grid header
 {
   grid-area: he;
-  background-color: white;
+  background-color: rgb(133, 244, 215);
   box-shadow: 4px 4px 10px #8c8c8c;
 }
 
 .grid nav
 {
   grid-area: na;
-  background-color: white;
+  background-color: rgb(230, 220, 92);
   box-shadow: 4px 4px 10px #8c8c8c;
 }
 .grid main
 {
   grid-area: ma;
-  background-color: white;
+  background-color: rgb(235, 151, 186);
   box-shadow: 4px 4px 10px #8c8c8c;
 }
 .grid footer
 {
   grid-area: fo;
-  background-color: white;
+  background-color: rgb(133, 244, 215);
   box-shadow: 4px 4px 10px #8c8c8c;
 }
 .gridImages
@@ -60,4 +60,9 @@ body
 {
   width: 100%;
   margin-bottom: 10px;
+}
+
+.h1
+{
+  font-family: 'Shadows Into Light', cursive;
 }
