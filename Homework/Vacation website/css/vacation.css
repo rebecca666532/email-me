@@ -18,7 +18,7 @@ body
   "fo fo fo"
   ;
 
-  grid-template-rows:150px 160px 50% 50px;
+  grid-template-rows:170px 160px 50% 50px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 20px;
 }
@@ -26,7 +26,7 @@ body
 .grid header
 {
   grid-area: he;
-  background-color: rgb(230, 220, 92);
+  background-color: rgb(240, 177, 55);
   box-shadow: 4px 4px 10px #8c8c8c;
 }
 

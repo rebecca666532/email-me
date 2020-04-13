@@ -1,6 +1,8 @@
 $(document).ready( function(){
 
-
+  $("#css").click(function(){
+      $(".grid header").css({"background-color" : "rgb(230, 220, 92)"});
+  });
 
   $("footer").mouseover(function(){
       $("footer p").html("Cuba is a beautiful country!");
