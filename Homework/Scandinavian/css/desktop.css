@@ -1,0 +1,112 @@
+.color
+{
+  background-color: rgb(240, 248, 255);
+}
+
+.basicGrid
+  {
+    width: 100%;
+    height: 400vh;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "hea"
+                         "nav"
+                         "main"
+                         "foo";
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 1fr;
+  }
+
+  /* Now you assign the grid areas to the elements in you HTML */
+ .basicGrid header
+  {
+    grid-area: hea;
+  }
+ .basicGrid nav
+  {
+    grid-area: nav;
+  }
+ .basicGrid main
+  {
+    grid-area: main;
+  }
+ .basicGrid footer
+  {
+    grid-area: foo;
+  }
+
+.smallGrid
+  {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "1 2";
+    grid-template-rows:100%;
+    grid-template-columns:50% 50%;
+  }
+
+
+ .smallGrid 1
+  {
+    grid-area: 1;
+  }
+ .smallGrid 2
+  {
+    grid-area: 2;
+  }
+
+.smallGrid2
+    {
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      display: grid;
+      grid-template-areas: "1 2";
+      grid-template-rows:100%;
+      grid-template-columns:80% 20%;
+    }
+
+
+  .smallGrid 1
+    {
+      grid-area: 1;
+    }
+  .smallGrid 2
+    {
+      grid-area: 2;
+    }
+
+.img
+  {
+    width: 100%;
+  }
+
+  .img2
+  {
+    width: 70%;
+  }
+
+.Vivia
+  {
+    font-family: 'Cardo', serif;
+    font-size: 80px;
+  }
+
+.Title
+{
+  font-family: 'Cardo', serif;
+  font-size: 35px;
+}
+
+.Body
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 1.5em;
+}
+
+.h2
+{
+  color: rgb(0, 139, 139);
+}
